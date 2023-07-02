@@ -1,15 +1,15 @@
-function squareСalculation(side) {
+export function squareСalculation(side) {
     return side * side;
 }
 
-function rectangleСalculation(sideA, sideB) {
+export function rectangleСalculation(sideA, sideB) {
     return sideA * sideB;
 }
 
-function parallelogramСalculation(sideC, height) {
+export function parallelogramСalculation(sideC, height) {
     return sideC * height
 }
 
-function rhombusСalculation(sideD, height) {
+export function rhombusСalculation(sideD, height) {
     return sideD * height
 }
